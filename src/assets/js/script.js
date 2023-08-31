@@ -45,7 +45,6 @@ function iniciarSesion(){
     caja_trasera_login.style.display = "none";
   }
 }
-
 function register(){
   if (window.innerWidth > 850){
     formulario_register.style.display = "block";
