@@ -1,57 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portozuelo</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
   <link rel="stylesheet" href="../src/styles.css">
 </head>
 <body>
+<nav>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+      <img src="../src/Images/Logotipo_Home1.png" alt="" class="logo">
+    </a>
+  <ul>
+    <li><a href="">Servicios</a> </li>
+    <li><a href="">Ubicación</a> </li>
+    <li><a href="">Contacto</a> </li>
+    <li><a href="">Inicia Sesión</a> </li>
+  </ul>
+</nav>
 
-<main>
-  <p>PORTOZUELO</p>
-  <div class="contenedor__todo">
-    <div class="caja__trasera">
-      <div class="caja__trasera-login">
-        <h3>¿Ya tienes una cuenta?</h3>
-        <p>Inicia sesión para entrar en la página</p>
-        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
-      </div>
-      <div class="caja__trasera-register">
-        <h3>¿Aún no tienes una cuenta?</h3>
-        <p>Regístrate para que puedas iniciar sesión</p>
-        <button id="btn__registrarse">Regístrarse</button>
-      </div>
-    </div>
+<h1 class="title">EVENTOS</h1>
 
-    <!--Formulario de Login y registro-->
-    <div class="contenedor__login-register">
-      <!--Login-->
-      <form action="" class="formulario__login">
-        <h2>Iniciar Sesión</h2>
-        <input type="text" placeholder="Correo Electronico">
-        <input type="password" placeholder="Contraseña">
-        <button>Entrar</button>
-      </form>
+<div class="container">
 
-      <!--Register-->
-      <form action="" class="formulario__register">
-        <h2>Regístrarse</h2>
-        <input type="text" placeholder="Nombre completo">
-        <input type="text" placeholder="Correo Electronico">
-        <input type="text" placeholder="Usuario">
-        <input type="password" placeholder="Contraseña">
-        <button>Regístrarse</button>
-      </form>
-    </div>
+  <div class="card">
+    <img src="../src/Images/img1.jpg">
+    <h4>Granjero en PORTOZUELO</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    <a href="#">Más Información</a>
   </div>
 
-</main>
+  <div class="card">
+    <img src="../src/Images/img3.jpg">
+    <h4>Portozuelo Místico</h4>
+    <p>Vive esta experiencia única a través de
+      #portozuelomístico 🙌🏼 en donde por medio de medicinas sagradas 🍄 🌱, buscamos armonizar nuestro cuerpo, alma y mente
+      Informes</p>
+    <a href="#">Leer más</a>
+  </div>
 
-<script src="assets/js/script.js"></script>
+  <div class="card">
+    <img src="../src/Images/img2.jpg">
+    <h4>Tecnología</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    <a href="#">Leer más</a>
+  </div>
+
+  <div class="card">
+    <img src="../src/Images/img1.jpg">
+    <h4>Granjero en PORTOZUELO</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    <a href="#">Más Información</a>
+  </div>
+
+  <div class="card">
+    <img src="../src/Images/img3.jpg">
+    <h4>Portozuelo Místico</h4>
+    <p>Vive esta experiencia única a través de
+      #portozuelomístico 🙌🏼 en donde por medio de medicinas sagradas 🍄 🌱, buscamos armonizar nuestro cuerpo, alma y mente
+      Informes</p>
+    <a href="#">Leer más</a>
+  </div>
+
+  <div class="card">
+    <img src="../src/Images/img2.jpg">
+    <h4>Tecnología</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+    <a href="#">Leer más</a>
+  </div>
+
+</div>
+
 </body>
 </html>
